@@ -4,7 +4,7 @@ import user from './user';
 
 const store = configureStore({
     reducer: {
-        userReducer: user,
+        user: user,
     }
 });
 
